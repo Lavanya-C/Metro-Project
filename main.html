@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>METRO</title>
+    <style>
+            button
+            {
+                background-color: floralwhite;color: darkslategrey;padding: 10px;border-radius: 12px;font-family: cursive;font-style: oblique
+            }
+    </style>
+    </head>
+    <body style="background-image:url(img/Prayer-Flags-Himalaya-Mountain-4K-Ultra-HD-Mobile-Wallpaper-950x1689.jpg);background-repeat: no-repeat;background-size: cover">
+    <center><h1 style="color: chartreuse">Welcome to NAMMA metro</h1>
+        <hr>
+         <marquee behavior="scroll" direction="right">
+             <a href="index.html">Home Page</a>&nbsp;&nbsp;
+             <a href="map.html">Map</a> &nbsp;&nbsp;
+             <a href="https://webtopup.bmrc.co.in/MemberDetails/QuickTopup.aspx">Recharge Card</a> &nbsp;&nbsp;
+         </marquee>
+        <hr>
+            <h2>This app is to display the details between stations</h2>
+         <img src="img/metro1.png" style="width: 200"><br><br><br>
+    Select the source station &nbsp;&nbsp;&nbsp;
+        <select id="s1" title="click here to select the source" class="chosen">
+            <option value="0">Nagasandra</option>
+            <option value="1">Dasarahalli</option>
+            <option value="2">Jalahalli</option>
+            <option value="3">Peenya industry</option>
+            <option value="4">Peenya</option>
+            <option value="5">Goraguntepalya</option>
+            <option value="6">Yeshwanthpur</option>
+            <option value="7">Sandal soap factory</option>
+            <option value="8">Mahalakshmi</option>
+            <option value="9">Rajajinagar</option>
+            <option value="10">Mahakavi kuvempu road</option>
+            <option value="11">Srirampura</option>
+            <option value="12">Mantri square sampige road</option>
+            <option value="13">Majestic</option>
+            <option value="14">Chikpet</option>
+            <option value="15">K.R.Market</option>
+            <option value="16">National college</option>
+            <option value="17">Lalbagh</option>
+            <option value="18">South end circle</option>
+            <option value="19">Jayanagar</option>
+            <option value="20">R.V.Road</option>
+            <option value="21">Banashankari</option>
+            <option value="22">J.P. Nagar</option>
+            <option value="23">Yelechenahalli</option>
+            <option value="30">Mysore Road</option>
+            <option value="29">Deepanjalinagar</option>
+            <option value="28">Attiguppe</option>
+            <option value="27">Vijayanagar</option>
+            <option value="26">Hosahalli</option>
+            <option value="25">Magadi Road</option>
+            <option value="24">City Railway Station</option>
+            <option value="31">Sir. M. Vishveshwaraiya Central Collage</option>
+            <option value="32">Dr. B. R. Ambedkar Vidhana Soudha</option>
+            <option value="33">Cubbon Park</option>
+            <option value="34">Mahatma Gandhi Road</option>
+            <option value="35">Trinity</option>
+            <option value="36">Halasuru</option>
+            <option value="37">Indiranagar</option>
+            <option value="38">Swami Vivekananda Road</option>
+            <option value="39">Baiyyappanahalli</option>
+        </select><br><br>
+        Select the destination station
+        <select id="s2" title="click here to select the destination" class="chosen">
+            <option value="0">Nagasandra</option>
+            <option value="1">Dasarahalli</option>
+            <option value="2">Jalahalli</option>
+            <option value="3">Peenya industry</option>
+            <option value="4">Peenya</option>
+            <option value="5">Goraguntepalya</option>
+            <option value="6">Yeshwanthpur</option>
+            <option value="7">Sandal soap factory</option>
+            <option value="8">Mahalakshmi</option>
+            <option value="9">Rajajinagar</option>
+            <option value="10">Mahakavi kuvempu road</option>
+            <option value="11">Srirampura</option>
+            <option value="12">Mantri square sampige road</option>
+            <option value="13">Majestic</option>
+            <option value="14">Chikpet</option>
+            <option value="15">K.R.Market</option>
+            <option value="16">National college</option>
+            <option value="17">Lalbagh</option>
+            <option value="18">South end circle</option>
+            <option value="19">Jayanagar</option>
+            <option value="20">R.V.Road</option>
+            <option value="21">Banashankari</option>
+            <option value="22">J.P. Nagar</option>
+            <option value="23">Yelechenahalli</option>
+            <option value="30">Mysore Road</option>
+            <option value="29">Deepanjalinagar</option>
+            <option value="28">Attiguppe</option>
+            <option value="27">Vijayanagar</option>
+            <option value="26">Hosahalli</option>
+            <option value="25">Magadi Road</option>
+            <option value="24">City Railway Station</option>
+            <option value="31">Sir. M. Vishveshwaraiya Central Collage</option>
+            <option value="32">Dr. B. R. Ambedkar Vidhana Soudha</option>
+            <option value="33">Cubbon Park</option>
+            <option value="34">Mahatma Gandhi Road</option>
+            <option value="35">Trinity</option>
+            <option value="36">Halasuru</option>
+            <option value="37">Indiranagar</option>
+            <option value="38">Swami Vivekananda Road</option>
+            <option value="39">Baiyyappanahalli</option>
+        </select><br><br> 
+       <button style="font-size: 18" onclick="detai()">Get the distance</button><br><br>
+        <b><p id="p1"></p></b>
+        </center>
+    <script type="text/javascript" src="js/deatails.js"></script>
+    <script type="text/javascript" src="js/deatails.js"></script>
+    <script type="text/javascript" src="js/jq1.js"></script>
+    <script type="text/javascript" src="js/jq2.js"></script>
+    <script type="text/javascript" src="js/jq3.js"></script>
+    <link rel="stylesheet" href="css/cas1.css">
+    <link rel="stylesheet" href="css/cas2.css">
+    </body>
+	<script type="text/javascript">
+	  $(".chosen").chosen();
+	</script>
+</html>
